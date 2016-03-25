@@ -21,6 +21,7 @@ public class HomeController {
     System.out.println("+++++++++++++++++++++++++++++++++");
     System.out.println(this.cityMapper.selectCityById(1));
     System.out.println("+++++++++++++++++++++++++++++++++");
+	System.out.println("This is the first time use github!")
     return "index";
   }
 
